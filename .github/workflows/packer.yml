@@ -3,8 +3,8 @@
 name: Packer
 
 on:
-  workflow_call:
-    
+  workflow_dispatch:
+      
 jobs:
   packer:
     runs-on: ubuntu-latest
